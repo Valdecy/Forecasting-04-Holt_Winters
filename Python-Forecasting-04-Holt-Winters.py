@@ -19,7 +19,7 @@ from matplotlib import style
 from sklearn.metrics import mean_squared_error
 from math import sqrt
 
-################     Part 1 - Holt's Method    #############################
+################     Part 1 - Holt-Winters' Method    #############################
 
 # Function: HW
 def holt_winters(timeseries, alpha = 0.2, beta = 0.1, gama = 0.1, m = 12, graph = True, horizon = 0, trend = "multiplicative", seasonality = "multiplicative"):
