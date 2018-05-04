@@ -1,6 +1,6 @@
 # Forecasting-04-Holt_Winters
 
-This Function is an Implementation of the Holt-Winters' Method for Time Series with Trend and Seasonality. If Necessary it Can Also Return the Best values for Alpha, Beta and Gama.
+This Function is an Implementation of the Holt-Winters' Method for Time Series with Trend and Seasonality. If Necessary it Can Also Return the Best Values for Alpha, Beta and Gama.
 
 * timeseries = The dataset in a Time Series format.
 
