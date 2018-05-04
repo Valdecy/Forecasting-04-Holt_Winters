@@ -205,7 +205,7 @@ X = df.iloc[:,:]
 X = X.set_index(pd.DatetimeIndex(df.iloc[:,0])) # First column as row names
 X = X.iloc[:,1]
 
-# Calling Function
+# Calling Functions
 holt_winters(X, alpha = 0.2, beta = 0.1, gama = 0.2, m = 4, graph = True, horizon = 0, trend = "multiplicative", seasonality = "multiplicative")
 
 opt = optimize_holt_winters(X, trend = "multiplicative", seasonality = "multiplicative", m = 4)
