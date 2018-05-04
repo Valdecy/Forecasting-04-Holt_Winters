@@ -8,7 +8,9 @@ This Function is an Implementation of the Holt-Winters' Method for Time Series w
 
 * beta = Trend smoothing parameter. The default value is 0.1
 
-* Gama = Seasonal smoothing parameter. The default value is 0.2
+* gama = Seasonal smoothing parameter. The default value is 0.2
+
+* m = Seasonal period (Ex: for quarters, m = 4 and for months, m = 12). The default value is 12
 
 * graph = If True then the original dataset and the moving average curves will be plotted. The default value is True.
 
